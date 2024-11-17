@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tac {
+  text-align: center;
+}
+
+h1.title {
+  color: red;
+}
+
+.post-wrap ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+.post-wrap li {
+  /* display: flex; */
+  /* width: 24%; */
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.post-wrap h4 {
+  color: green;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: rgba(0, 0, 0, 0.5);
+  background: #ddd;
+  padding: 10px;
+  margin: 0;
+}
+
+.post-wrap .instagram-media {
+  width: auto !important;
+}
+
+.vote {
+  color: red;
+}
+
+.calculateBtn {
+  margin: 25px 0 0;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  background: red;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+}
